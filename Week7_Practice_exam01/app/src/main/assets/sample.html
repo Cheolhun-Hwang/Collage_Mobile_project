@@ -1,0 +1,32 @@
+<html>
+<head>
+    <script language="JavaScript">
+        var flag = true;
+        function changeFace() {
+                if (flag == true) {
+                    document.getElementById("face").src="angry.png";
+                    flag = false;
+                } else {
+                    document.getElementById("face").src="smile.png";
+                    flag = true;
+                }
+            }
+    </script>
+</head>
+<body>
+<!-- 이미지를 클릭할 경우 앱의 clickOnFace() 메소드 호출 -->
+<a onClick="window.sample.clickOnFace()">
+    <div style="width:250px;
+                    margin:0px auto;
+                    padding:10px;
+                    text-align:center;
+                    ">
+        <img id="face" src="smile.png"/>
+        <br>
+    </div>
+</a>
+</body>
+
+
+
+</html>

@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Class_Practice_170515</string>
+
+
+    <string name="title1">트와이스</string>
+    <string name="place1">SIGNAL</string>
+    <string name="video1">signal</string>
+
+    <string name="title2">밤의 분수대</string>
+    <string name="place2">예술의 전당</string>
+    <string name="video2">fountain_night</string>
+
+    <string name="title3">작은 계곡</string>
+    <string name="place3">양평</string>
+    <string name="video3">creek_rock</string>
+
+    <string name="title4">길 위의 폭포</string>
+    <string name="place4">청계천</string>
+    <string name="video4">waterfall_street</string>
+</resources>
